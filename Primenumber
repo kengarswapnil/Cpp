@@ -1,0 +1,26 @@
+//Prime number
+
+#include<iostream>
+using namespace std;
+
+int main(){
+
+
+    int f=0;
+    int no=3;
+    
+    for(int i=2;i<no/2;i++){
+        if(no%i==0){
+            f=1;
+            break;
+
+        }
+    }
+    if(f==0){
+        cout <<"it is prime no";
+    }
+    else{
+        cout << "it is not prime no";
+    }
+    return 0;
+}
