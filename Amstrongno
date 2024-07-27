@@ -1,0 +1,25 @@
+//amstrong in c++
+
+
+#include <iostream>
+using namespace std;
+
+int main(){
+  int sum=0;
+  int no=153;
+  int temp=no;
+
+  while(no>0){
+    int rem=no%10;
+    sum=sum+(rem*rem*rem);
+    no=no/10;
+  }
+if(sum==temp){
+    cout << "AMSTRONG NUMBER";
+}
+else{
+    cout <<"NOT AMSTRONG NUMBER";
+}
+
+    return 0;
+}
