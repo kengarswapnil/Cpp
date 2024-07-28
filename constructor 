@@ -1,0 +1,14 @@
+#include <iostream>
+#include<string>
+using namespace std;
+
+class Student{
+  public:
+     Student(){
+      cout <<"constructor is called";
+     }
+};
+int main(){
+  Student s;
+  return 0;
+}
