@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+void tower(int n,string src,string help,string dest)
+{
+if(n==0||n==1)
+{
+  cout << "Transfer disk " <<n<<" from "<<src<<" to "<<dest<<endl;
+  }
+  else
+  {
+  tower(n-1,src,dest,help);
+  cout << "Transfer disk " <<n<<" from "<<src<<" to "<<dest<<endl;
+  
+    tower(n-1,help,src,dest);
+  }
+  }
+  int main(){
+  int n=2;
+  tower(n,"s","h","d");
+  
+      
+    return 0;
+}
