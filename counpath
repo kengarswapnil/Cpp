@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int callguest(int n)
+{
+  if(n<=1)
+  {
+   return 1;
+  }
+  int waya1 = callguest(n-1);
+  int waya2 = waya1* callguest(n-2);
+  return waya1+waya2;
+}
+   
+int main(){
+int n=3;
+cout <<callguest(n);
+  return 0;
+}
