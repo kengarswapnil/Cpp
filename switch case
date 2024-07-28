@@ -1,0 +1,19 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+    int day=3;
+switch (day){
+ case 1: 
+ 
+        cout <<"Monday";
+        
+   case 2:
+          cout <<"Tuesday";
+    case 3:
+          cout <<"Wednesday ";
+          }          
+    return 0;
+}
