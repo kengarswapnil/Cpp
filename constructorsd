@@ -1,0 +1,29 @@
+#include <iostream>
+#include<string>
+
+using namespace std;
+
+class Student{
+     int rollno;
+    float marks;
+    
+  public:
+     Student(){
+     rollno=27;
+     marks=71.71;
+     }
+     void display(){
+      cout <<"Rollno : "<<rollno<<endl;
+      cout <<"Marks : "<<marks;
+      }
+};
+int main(){
+   
+   
+  Student s;
+  s.display();
+  
+  
+  
+  return 0;
+}
