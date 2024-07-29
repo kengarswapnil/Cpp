@@ -1,0 +1,24 @@
+#include <iostream> 
+using namespace std; 
+class Distructor 
+{
+public:
+Distructor () // Constructor
+{
+cout <<"Constructor Involed"<<"\n";
+}
+
+public:
+ ~Distructor () // Distructor
+{
+cout << "Distructor involved";
+
+}
+};
+
+int main()
+{
+Distructor obj ;
+return 0;
+
+}
