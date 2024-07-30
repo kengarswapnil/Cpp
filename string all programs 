@@ -1,0 +1,17 @@
+#include <iostream>
+#include<string> 
+using namespace std; 
+int main(){
+string s;
+string name="swapnil";
+string fname="kengar";
+string fullname=name.append(fname);
+cout <<fullname<<endl;
+cout <<fullname.length()<<endl;
+cout <<fullname.size()<<endl;
+cout <<fullname[0]<<endl;
+getline(cin ,s);
+cout<<s;
+return 0;
+
+}
