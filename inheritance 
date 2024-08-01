@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+class coder {
+	public :
+	int salary=50000;
+};
+
+class program :public coder{
+	public :
+	  int sal=20000;
+};
+
+
+int main()
+{
+   program p;
+   cout<<p.salary<<endl;
+   cout<<p.sal;
+   
+    return 0;
+}
