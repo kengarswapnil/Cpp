@@ -1,0 +1,22 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+
+class MyClass {
+public:
+      int no;
+      string name;
+      };
+int main()
+{
+     MyClass obj;
+      
+      
+      obj.no=27;
+      obj.name="swapnil";
+      
+    cout <<obj. name<< endl;
+    cout <<obj.no<<endl;
+    return 0;
+}
