@@ -1,0 +1,19 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+
+class MyClass {
+public:
+       void myMethod(){
+       cout<<"Hello world";
+}
+};
+      
+int main()
+{
+     MyClass obj;
+     obj.myMethod();
+     
+    return 0;
+}
