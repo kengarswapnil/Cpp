@@ -1,0 +1,31 @@
+#include<iostream>
+#include<string>
+using namespace std;
+
+
+class MyClass {
+public:
+      int no;
+      string name;
+      };
+int main()
+{
+     MyClass obj;
+      
+      
+      obj.no=27;
+      obj.name="swapnil";
+      
+      
+      MyClass obj2;
+      obj2.no=12;
+      obj2.name="Atharva";
+      
+      
+    cout <<obj. name<< endl;
+    cout <<obj.no<<endl;
+    
+    cout <<obj2. name<< endl;
+    cout <<obj2.no<<endl;
+    return 0;
+}
