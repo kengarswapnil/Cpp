@@ -1,0 +1,14 @@
+#include <iostream>    
+
+#include<fstream>
+using namespace std;    
+int main()    
+{    
+   ofstream
+   Myfile("sk.txt");
+   cout<<"file created";
+   Myfile << "file is created";
+   Myfile.close();
+    
+    return 0;    
+}    
